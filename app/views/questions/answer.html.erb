@@ -1,0 +1,24 @@
+<!-- Afficher du ruby dans du HTML / ERB -->
+
+<div class="container">
+
+  <h1>Stupid Coaching</h1>
+
+  <div class="ask-container">
+    <p><%= @ask %></p>
+    <p>You</p>
+  </div>
+
+  <div class="answer-container">
+    <p><%= @answer %></p>
+    <p>Your coach</p>
+  </div>
+
+
+
+
+  <p><%= link_to "Ask me another question", ask_path %></p>
+</div>
+
+<!-- Mettre du ruby sans lafficher -->
+
